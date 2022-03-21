@@ -10,8 +10,8 @@
 4. Skills:
     * HTML
     * CSS
-    * Figma
     * Git
+    * Figma
 5. Code examples:
     ```
     function nicknameGenerator(name){
@@ -25,10 +25,10 @@
     }
   ```
 6. Previous expirience:
-    * Joke generator(https://rolling-scopes-school.github.io/asyabukato-JSFEPRESCHOOL/random-jokes/)
-    * Game creation (https://rolling-scopes-school.github.io/asyabukato-JSFEPRESCHOOL/tic-tac-toe/)
-    * Web design in Figma (https://www.behance.net/purple_lupine_)
-    * Photographer (https://www.instagram.com/purple_lupine_/)
+    * [Joke generator](https://rolling-scopes-school.github.io/asyabukato-JSFEPRESCHOOL/random-jokes/)
+    * [Game creation](https://rolling-scopes-school.github.io/asyabukato-JSFEPRESCHOOL/tic-tac-toe/)
+    * [Web design in Figma](https://www.behance.net/purple_lupine_)
+    * [Photographer] (https://www.instagram.com/purple_lupine_/)
 7. Education:
     * Bachelor degree in philology
     * Web design in Figma course
