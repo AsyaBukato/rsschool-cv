@@ -9,19 +9,24 @@
 
 body {
     min-height: 100vh;
-    margin: 0; padding: 0;
+    margin: 0; 
+    padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     background-color: #143942;
     font-family: 'Titillium Web', sans-serif;
   }
 
-  header {
-    max-height: 100px;
+header {
+    height: 70px;
+    background-image: url(./assets/image/avatar.jpg);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    z-index: 2;
   }
 
-  .menu {
+.menu {
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
@@ -30,14 +35,231 @@ body {
     list-style: none
   }
 
-  .menu-link {
-    padding: 0 20px;
+.menu-link {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.075em;
+    padding: 0 50px;
     line-height: 30px;
     text-decoration: none;
     color: #C68D00;
     transition: .3s;
   }
   
-  .menu-link:hover {
+.menu-link:hover {
     color: #ffffff;
   }
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    height: calc(100% - 140px);
+    /* max-width: 1440px;
+    min-height: 90px; */
+  }
+
+.photo {
+     position: absolute;
+     top: 0%;
+     z-index: 1;
+  }
+
+.left-column {
+    display: flex;
+    align-items: stretch;
+    width: 500px;
+    height: 1024px;
+    background-color:#152826;
+    box-shadow: 23px 4px 24px #1528264f;
+    padding: 0 62px 0 62px;
+  }
+
+h1 {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 73px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 512px;
+  }
+
+h2 {
+    position: absolute;
+    top: 598px;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-left: 39px;
+  }
+
+  h3 {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+    color: #C68D00;
+    margin: 0%;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.contact-block {
+    display: flex;
+    align-items: center;
+}
+
+.icon-cotact {
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 25px;
+}
+
+.right-column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: calc(1440px - 500px);
+    height: 1024px;
+    padding: 50px 50px 0 50px;
+}
+
+p {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+code {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.card-info {
+    width: 414px;
+    height: 179px;
+    background: #12333B;
+    box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
+    padding: 20px;
+    margin: 0px 50px 50px 0px;
+}
+
+.card-education {
+  width: 414px;
+  height: 322px;
+  background: #12333B;
+  box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
+  padding: 20px;
+  margin: 0px 50px 50px 0px;
+}
+
+.card-skills {
+  width: 414px;
+  height: 241px;
+  background: #12333B;
+  box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
+  padding: 20px;
+  margin: 0px 50px 50px 0px;
+}
+
+.card-english {
+  width: 414px;
+  height: 179px;
+  background: #12333B;
+  box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
+  padding: 20px;
+  margin: 0px 0px 50px 0px;
+}
+
+.card-code {
+  width: 414px;
+  height: 322px;
+  background: #12333B;
+  box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
+  padding: 20px;
+  margin: 0px 0px 50px 0px;
+}
+
+.card-expirience {
+  display: flex;
+  flex-direction: column;
+  width: 414px;
+  height: 241px;
+  background: #12333B;
+  box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
+  padding: 20px;
+  margin: 0px 0px 50px 0px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration:none;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 10px 0px 0px 0px;
+}
+
+a:hover {
+    color: #C68D00;
+}
+
+footer {
+    height: 70px;
+    width: 500px;
+    background: #152826;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.git-year-rss {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center
+}
+
+.year-2022 {
+  font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #C68D00;
+    margin: 10px;
+}
