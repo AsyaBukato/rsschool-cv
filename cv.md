@@ -1,5 +1,5 @@
 # Anastasiya Bukata CV
-![](assets/avatar.jpg)
+![](assets/image/avatar.jpg)
 1. Name: Anastasiya Bukata
 2. Contacts:
     * Email: anastasijagrig16.08.1993@gmail.com
