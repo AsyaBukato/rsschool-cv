@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anastasiya Bukata CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">
+    <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#contacts" class="menu-link" data-card="card-contacts">Contacts</a></li>
+                    <li><a href="#info" class="menu-link" data-card="card-info">Info</a></li>
+                    <li><a href="#skills" class="menu-link" data-card="card-skills">Skills</a></li>
+                    <li><a href="#experience" class="menu-link" data-card="card-experience">Previous experience</a></li>
+                    <li><a href="#english" class="menu-link" data-card="card-english">English level</a></li>
+                </ul> 
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-container">
+        <img src="./assets/image/avatar.jpg" class="photo" alt="photo Anastasiya Bukata">
+        <div class="left-column">
+            <h1>Anastasiya Bukata</h1>
+            <h2>Junior Front-End Developer</h2>
+            <section id="contacts" class="contacts card-contacts">
+                <h3>Contacts:</h3>
+                <ul>
+                    <li class="contact-block">
+                        <img src="./assets/icon/mail.svg" class="icon-cotact" alt="">
+                        <p>anastasijagrig16.08.1993@gmail.com</p>
+                    </li>
+                    <li class="contact-block">
+                        <img src="./assets/icon/phone.svg" class="icon-cotact" alt="">
+                        <p>+375 33 6255558</p>
+                    </li>
+                    <li class="contact-block">
+                        <img src="./assets/icon/discord-icon.svg" class="icon-cotact" alt="">
+                        <p>asyabukato#7060</p>
+                    </li>
+                    <li class="contact-block">
+                        <img src="./assets/icon/instagram.svg" class="icon-cotact" alt="">
+                        <p>purple_lupine_</p>
+                    </li>
+                </ul>
+            </section>
+
+
+        </div>
+        <div class="right-column">
+            <div class="card card-info">
+                <h3>Info:</h3>
+                <p>RS School JS frontend lab student. Strongly motivated, eager for new knowledges</p>
+            </div>
+            <div class="card card-education">
+                <h3>Education:</h3>
+                <p>Bachelor degree in philology</p>
+                <p>Web design in Figma course</p>
+                <p>Motion design in After Effect</p>
+                <p>JS/FE Pre-School 2022</p>
+            </div>
+            <div class="card card-skills">
+                <h3>Skills:</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+            <div class="card card-english">
+                <h3>English level:</h3>
+                <p>A1</p>
+            </div>
+            <div class="card card-code">
+                <h3>Code examples:</h3>
+                <code>
+                    function nicknameGenerator(name){
+                    <br>
+                        if (name.length &lt;= 3) {
+                    <br>
+                            return 'Error: Name too short';
+                    <br>
+                        }
+                    <br>
+                        if (name[2].match(/[aeiou]/)) {
+                    <br>
+                            return name.slice(0, 4);
+                    <br>
+                        }
+                    <br>
+                        return name.slice(0, 3); 
+                    <br>
+                    }                
+                </code>
+            </div>
+            <div class="card card-experience">
+                <h3>Previous experience:</h3>
+                <a href="https://rolling-scopes-school.github.io/asyabukato-JSFEPRESCHOOL/random-jokes/">Joke generator</a>
+                <a href="https://rolling-scopes-school.github.io/asyabukato-JSFEPRESCHOOL/tic-tac-toe/">Game creation</a>
+                <a href="https://www.behance.net/purple_lupine_">Web design in Figma</a>
+                <a href="https://www.instagram.com/purple_lupine_/">Photographer</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="git-year-rss">
+                <a href="https://github.com/AsyaBukato"><img src="./assets/icon/github-icon.svg" alt="github"></a>
+                <div class="year-2022">2022</div>
+                <a href="https://rs.school/js/"><img src="./assets/icon/rs_school_js.svg" alt="rs-school"></a>
+            </div>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
