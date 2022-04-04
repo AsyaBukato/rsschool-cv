@@ -7,6 +7,14 @@
   margin: 0 auto;
 }
 
+.header-container {
+  height: 70px;
+  padding-left: 500px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
 body {
     min-height: 100vh;
     margin: 0; 
@@ -16,21 +24,12 @@ body {
     justify-content: flex-start;
     background-color: #143942;
     font-family: 'Titillium Web', sans-serif;
-  }
-
-header {
-    height: 70px;
-    background-image: url(./assets/image/avatar.jpg);
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    z-index: 2;
+    /* align-items: center; */
   }
 
 .menu {
-    padding-left: 50px;
-    padding-right: 50px;
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-around;
     align-items: center;
     list-style: none
   }
@@ -42,7 +41,7 @@ header {
     font-size: 24px;
     line-height: 30px;
     letter-spacing: 0.075em;
-    padding: 0 50px;
+    /* padding: 0 50px; */
     line-height: 30px;
     text-decoration: none;
     color: #C68D00;
@@ -57,8 +56,6 @@ header {
     display: flex;
     justify-content: flex-start;
     height: calc(100% - 140px);
-    /* max-width: 1440px;
-    min-height: 90px; */
   }
 
 .photo {
@@ -69,12 +66,15 @@ header {
 
 .left-column {
     display: flex;
-    align-items: stretch;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: fle; */
+    padding-top: 430px;
     width: 500px;
-    height: 1024px;
+    /* height: 1024px; */
     background-color:#152826;
     box-shadow: 23px 4px 24px #1528264f;
-    padding: 0 62px 0 62px;
+    /* padding: 0 62px 0 62px; */
   }
 
 h1 {
@@ -84,19 +84,15 @@ h1 {
     font-size: 48px;
     line-height: 73px;
     color: #FFFFFF;
-    position: absolute;
-    top: 512px;
   }
 
 h2 {
-    position: absolute;
-    top: 598px;
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     color: #FFFFFF;
-    padding-left: 39px;
+    margin-top: 0%;
   }
 
   h3 {
@@ -167,59 +163,48 @@ code {
   color: #FFFFFF;
 }
 
+.card {
+  width: 414px;
+  background: #12333B;
+  box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
+  padding: 20px;
+}
+
 .card-info {
-    width: 414px;
     height: 179px;
-    background: #12333B;
-    box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
-    padding: 20px;
     margin: 0px 50px 50px 0px;
 }
 
 .card-education {
-  width: 414px;
   height: 322px;
-  background: #12333B;
-  box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
-  padding: 20px;
   margin: 0px 50px 50px 0px;
 }
 
 .card-skills {
-  width: 414px;
   height: 241px;
-  background: #12333B;
-  box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
-  padding: 20px;
   margin: 0px 50px 50px 0px;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #FFFFFF;
 }
 
 .card-english {
-  width: 414px;
   height: 179px;
-  background: #12333B;
-  box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
-  padding: 20px;
   margin: 0px 0px 50px 0px;
 }
 
 .card-code {
-  width: 414px;
   height: 322px;
-  background: #12333B;
-  box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
-  padding: 20px;
   margin: 0px 0px 50px 0px;
 }
 
 .card-expirience {
   display: flex;
   flex-direction: column;
-  width: 414px;
   height: 241px;
-  background: #12333B;
-  box-shadow: 9px 19px 21px rgba(15, 42, 49, 0.34);
-  padding: 20px;
   margin: 0px 0px 50px 0px;
 }
 
@@ -239,19 +224,22 @@ a:hover {
     color: #C68D00;
 }
 
-footer {
-    height: 70px;
-    width: 500px;
-    background: #152826;
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    z-index: 2;
+.footer-container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 2;
 }
 
 .git-year-rss {
+  width: 500px;
+  height: 70px;
   display: flex;
   justify-content: space-evenly;
-  align-items: center
+  align-items: center;
+  background: #152826;
+  box-shadow: 23px 4px 24px #1528264f;
 }
 
 .year-2022 {
