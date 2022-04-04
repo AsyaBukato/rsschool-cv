@@ -15,111 +15,115 @@
   z-index: 2;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+}
+
 body {
-    min-height: 100vh;
-    margin: 0; 
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: #143942;
-    font-family: 'Titillium Web', sans-serif;
-    /* align-items: center; */
-  }
+  min-height: 100vh;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #143942;
+  font-family: 'Titillium Web', sans-serif;
+}
 
 .menu {
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    list-style: none
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  flex-basis: 100%;
+}
 
 .menu-link {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 30px;
-    letter-spacing: 0.075em;
-    /* padding: 0 50px; */
-    line-height: 30px;
-    text-decoration: none;
-    color: #C68D00;
-    transition: .3s;
-  }
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.075em;
+  line-height: 30px;
+  text-decoration: none;
+  color: #C68D00;
+  transition: .3s;
+}
   
 .menu-link:hover {
-    color: #ffffff;
-  }
+  color: #ffffff;
+}
 
 .main-container {
-    display: flex;
-    justify-content: flex-start;
-    height: calc(100% - 140px);
-  }
+  display: flex;
+  justify-content: flex-start;
+  height: calc(100% - 140px);
+}
 
 .photo {
-     position: absolute;
-     top: 0%;
-     z-index: 1;
-  }
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+}
 
 .left-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: fle; */
-    padding-top: 430px;
-    width: 500px;
-    /* height: 1024px; */
-    background-color:#152826;
-    box-shadow: 23px 4px 24px #1528264f;
-    /* padding: 0 62px 0 62px; */
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 430px;
+  width: 500px;
+  background-color:#152826;
+  box-shadow: 23px 4px 24px #1528264f;
+}
 
 h1 {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 73px;
-    color: #FFFFFF;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 73px;
+  color: #FFFFFF;
   }
 
 h2 {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    color: #FFFFFF;
-    margin-top: 0%;
-  }
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-top: 0%;
+  margin-bottom: 50px;
+}
 
-  h3 {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 37px;
-    color: #C68D00;
-    margin: 0%;
-  }
+h3 {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 37px;
+  color: #C68D00;
+  margin: 0%;
+}
 
-  ul {
-    list-style: none;
-    padding-left: 0%;
+ul {
+  list-style: none;
+  padding-left: 0%;
 }
 
 .contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
 }
 
 .contact-block {
@@ -128,31 +132,31 @@ h2 {
 }
 
 .icon-cotact {
-    background-position: center left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 25px;
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 25px;
 }
 
 .right-column {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: stretch;
-    width: calc(1440px - 500px);
-    height: 1024px;
-    padding: 50px 50px 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  width: calc(1440px - 500px);
+  height: 1024px;
+  padding: 50px 50px 0 50px;
 }
 
 p {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FFFFFF;
-    margin: 10px;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 10px;
 }
 
 code {
@@ -170,9 +174,13 @@ code {
   padding: 20px;
 }
 
+.card-active {
+  box-shadow: 12px 14px 18px rgba(63, 203, 237, 0.34);
+}
+
 .card-info {
-    height: 179px;
-    margin: 0px 50px 50px 0px;
+  height: 179px;
+  margin: 0px 50px 50px 0px;
 }
 
 .card-education {
@@ -201,7 +209,7 @@ code {
   margin: 0px 0px 50px 0px;
 }
 
-.card-expirience {
+.card-experience {
   display: flex;
   flex-direction: column;
   height: 241px;
@@ -209,19 +217,19 @@ code {
 }
 
 a {
-    cursor: pointer;
-    text-decoration:none;
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FFFFFF;
-    margin: 10px 0px 0px 0px;
+  cursor: pointer;
+  text-decoration:none;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin: 10px 0px 0px 0px;
 }
 
 a:hover {
-    color: #C68D00;
+  color: #C68D00;
 }
 
 .footer-container {
@@ -244,10 +252,10 @@ a:hover {
 
 .year-2022 {
   font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    color: #C68D00;
-    margin: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #C68D00;
+  margin: 10px;
 }

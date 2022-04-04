@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">
+    <script type="module" src="./index.js"></script>
 </head>
 
 <body>
@@ -16,11 +17,11 @@
         <div class="container header-container">
             <nav>
                 <ul class="menu">
-                    <li><a href="#contacts" class="menu-link">Contacts</a></li>
-                    <li><a href="#info" class="menu-link">Info</a></li>
-                    <li><a href="#skills" class="menu-link">Skills</a></li>
-                    <li><a href="#expirience" class="menu-link">Previous expirience</a></li>
-                    <li><a href="#english" class="menu-link">English level</a></li>
+                    <li><a href="#contacts" class="menu-link" data-card="card-contacts">Contacts</a></li>
+                    <li><a href="#info" class="menu-link" data-card="card-info">Info</a></li>
+                    <li><a href="#skills" class="menu-link" data-card="card-skills">Skills</a></li>
+                    <li><a href="#experience" class="menu-link" data-card="card-experience">Previous experience</a></li>
+                    <li><a href="#english" class="menu-link" data-card="card-english">English level</a></li>
                 </ul> 
             </nav>
         </div>
@@ -31,7 +32,7 @@
         <div class="left-column">
             <h1>Anastasiya Bukata</h1>
             <h2>Junior Front-End Developer</h2>
-            <section id="contacts" class="contacts">
+            <section id="contacts" class="contacts card-contacts">
                 <h3>Contacts:</h3>
                 <ul>
                     <li class="contact-block">
@@ -85,7 +86,7 @@
                 <code>
                     function nicknameGenerator(name){
                     <br>
-                        if (name.length <= 3) {
+                        if (name.length &lt;= 3) {
                     <br>
                             return 'Error: Name too short';
                     <br>
@@ -102,8 +103,8 @@
                     }                
                 </code>
             </div>
-            <div class="card card-expirience">
-                <h3>Previous expirience:</h3>
+            <div class="card card-experience">
+                <h3>Previous experience:</h3>
                 <a href="https://rolling-scopes-school.github.io/asyabukato-JSFEPRESCHOOL/random-jokes/">Joke generator</a>
                 <a href="https://rolling-scopes-school.github.io/asyabukato-JSFEPRESCHOOL/tic-tac-toe/">Game creation</a>
                 <a href="https://www.behance.net/purple_lupine_">Web design in Figma</a>
